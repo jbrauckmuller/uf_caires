@@ -80,7 +80,7 @@ Author: Laura Bernheim
 }
 
 .button:hover, .button:focus {
-    background-color: #294B49; }
+	background-color: #294B49; }
 
 .content-wrapper {
 	max-width: 62.5em;
