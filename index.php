@@ -25,7 +25,7 @@ get_header(); ?>
                     <?php the_post_thumbnail(); ?>
                     </a>
                   <?php endif; ?>
-                <p class="text-justify"><?php the_excerpt_max_charlength(280); ?>
+                <p class="text-justify pad-top"><?php the_excerpt_max_charlength(280); ?>
                 <a href="<?php the_permalink(); ?>">Read more</a></p>
             <?php endwhile; endif; ?>
         </div>
@@ -39,7 +39,7 @@ get_header(); ?>
                     <?php the_post_thumbnail(); ?>
                     </a>
                   <?php endif; ?>
-                <p class="text-justify"><?php the_excerpt_max_charlength(280); ?>
+                <p class="text-justify pad-top"><?php the_excerpt_max_charlength(280); ?>
                 <a href="<?php the_permalink(); ?>">Read more</a></p>
             <?php endwhile; endif; ?>
         </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                     <?php the_post_thumbnail(); ?>
                     </a>
                   <?php endif; ?>
-                <p class="text-justify"><?php the_excerpt_max_charlength(280); ?>
+                <p class="text-justify pad-top"><?php the_excerpt_max_charlength(280); ?>
                 <a href="<?php the_permalink(); ?>">Read more</a></p>
             <?php endwhile; endif; ?>
         </div>
